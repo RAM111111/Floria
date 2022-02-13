@@ -62,7 +62,7 @@ function myFunction() {
     document.querySelector("nav .o").classList.remove("activate");
     document.querySelector("nav .c").classList.add("activate");
   }
-  if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+  if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
     document.querySelector(".grid").classList.add("slideUp");
     document.querySelector("nav .c").classList.remove("activate");
     document.querySelector("nav .p").classList.remove("activate");
