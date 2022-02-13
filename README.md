@@ -1,3 +1,3 @@
 # Floria
-<img src="uuyy.png" alt="a" width="200"/>
+<img src="images /uuyy.png" alt="a" width="200"/>
 
