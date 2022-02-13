@@ -93,7 +93,6 @@ color:var(--white);
     background-color: rgba(1, 1, 1, .5);
     display: flex;
     align-items: center;
-    z-index: 0;
 }
 .home img{
     background-size: cover !important;
@@ -180,9 +179,10 @@ background: var(--green);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    -webkit-box-shadow:0rem 0rem .1rem #AFDDCE;
+    -webkit-box-shadow:1rem 1rem 1rem #AFDDCE;
+    border-color: rosybrown;border-width: 1rem;
     -moz-box-shadow:0rem 0rem .1rem #AFDDCE;
-    box-shadow: 0rem 0rem .1rem #AFDDCE ;
+    box-shadow: 0rem 0rem .2rem #AFDDCE ;
     color: var(--green);
     border-radius: 1rem;
 }
@@ -291,6 +291,7 @@ figure:hover img {
 .pabular{
     height: 100vh;
     padding-top: 10%;
+
 }
 .pabular h2,.pabular p,.pabular h1{
     color: var(--gray) ;
@@ -315,13 +316,17 @@ height: 50vh;
 }
 .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
 bottom: -2px;
+
 }
 
 .pabular .view img{
-    width: 100%;height: 80%;
-    background-size: cover;
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
     border-radius: 1rem;
 }
+.pabular .view img:hover{
+filter: brightness(110%);}
 .pabular .swiper-button-next::after,.pabular .swiper-button-prev::after{
     color: var(--green);
 }
